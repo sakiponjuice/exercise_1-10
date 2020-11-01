@@ -61,3 +61,20 @@ footer{
 .item-box:last-child{
   margin-right: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .item-boxes{
+    display: block;
+    width: 100%;
+  }
+
+  .item-box{
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+
+  .item-box:last-child{
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+}
